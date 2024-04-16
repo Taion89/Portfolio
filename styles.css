@@ -247,6 +247,9 @@ footer p {
     .inicio h2 {
         text-align: center;
     }
+    .proyectos h2 {
+        font-size: 32px;
+    }
     .redes p{
         width: 100%;
         font-size: 22px;
@@ -264,7 +267,7 @@ footer p {
     }
 }
 
-/* Varios códigos de 480px proporcionados por ChatGPT */
+
 
 @media screen and (max-width: 480px) {
     header {
@@ -304,14 +307,10 @@ footer p {
         height: auto;
     }
 
-    .proyectos .titulo3 {
-        padding-top: 85px;   
-        font-size: 1.5rem;   
-        text-align: center; 
-    }
-
     .proyectos h2 {
-        border-bottom: 2px solid white;
+        padding-top: 85px;   
+        font-size: 20px;  
+        text-align: center; 
     }
 
     .contenedor {
@@ -379,8 +378,8 @@ footer p {
         padding: 0;
     }
 
-    .proyectos .titulo3 {
-        font-size: 1.2rem;
+    .proyectos h2 {
+        font-size: 20px;
     }
 
     .contenedor {
@@ -398,9 +397,14 @@ footer p {
     .texto {
         padding-top: 60px;
     }
+
     .redes p {
         padding: 5px;
         font-size: 20px;
+    }
+
+    footer p {
+        font-size: 10px;
     }
 }
 
@@ -408,4 +412,19 @@ footer p {
     .inicio {
         text-align: center;
     }
+}
+
+@media screen and (max-width: 345px) {
+    nav a {
+        font-size: 16px;
+    }
+
+    .proyectos h2 {
+        font-size: 18px;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+
 }
